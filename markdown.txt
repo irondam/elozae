@@ -1,0 +1,253 @@
+---
+clavier: true
+gestionGrosMots: true
+rechercheContenu: true
+---
+
+# Élozae
+
+> Bonjour, je me présente je suis Élozae !
+> On peut le traduire par "celle qui éclaire" c'est beau n'est-ce-pas ?
+>
+> Et justement je suis là pour :
+> - répondre à vos questions sur Typo3
+> - vous donner des conseils SEO et accessibilité
+> - et bien d'autres choses !
+> Je suis un peu l'assistante du Bureau Digital :+1.
+>
+> Alors que souhaites-tu faire aujourd'hui ?
+> 
+> 1. [J'ai besoin d'avoir des conseils sur Typo3](Typo3)
+> 2. [Il me faut des conseils SEO et accessibilité](SEO)
+> 3. [Je voudrais un petit moment de détente](Détente)
+
+## Typo3
+- typo
+- typo3 
+- typo 3
+
+Ah Typo3 ! Vaste sujet :+1, de quoi as-tu besoin ?
+1. [Dis-moi tout sur le bloc Texte et média !](Texte et média)
+2. [Retour]()
+
+
+## SEO
+- seo
+
+Ahah, je ne suis pas encore prête à répondre à tes questions, désolée !
+
+1. [Retour]()
+
+## Détente
+- detente
+- blague
+- citation
+
+Allez une petite blague : Qu'est-ce qui est petit et marron ? **un marron !!** (Ah oui, je n'ai jamais dit que j'étais drôle !).
+
+## Texte et média
+- mettre du texte
+- ajouter une image
+- faire un lien
+
+Le bloc Texte et média est probablement le plus courant sur Typo3. Il rangé dans Typical page content.
+
+Une fois ajouté, de multiples champs apparaissent.
+
+Ce texte décrit un bloc tel que celui-ci :
+
+**Onglet général**
+
+L'onglet général est composé de plusieurs éléments.
+
+Type : le type de bloc de contenu (si vous souhaitez finalement basculer sur un plugin ou un Header, c'est ici que cela se passe).
+
+Colonne (column) : ce champ est aujourd'hui sur normal par défaut ou, dans le cas d'un bloc "container", celui-ci indique la colonne dans laquelle vous vous trouvez.
+
+Conteneur (container) : Le conteneur parent de votre bloc. Par défaut - 0 (le body au sens large) ou, dans le cas d'un bloc "container", le conteneur associé.
+
+Surtitre : Ce champ permet d'ajouter un petit texte en bleu/vert au-dessus de votre titre. Utile notamment pour préciser la nature de votre encart : Événement, À la une... En HTML, il est catégorisé en paragraphe et non comme un titre (important pour la hiérarchie de l'information et la lecture d'écran en accessibilité.
+
+Titre (header) : Ce champ permet d'ajouter un titre comme "Et si vous participiez à un webinaire de rentrée ?". Réglé par défaut sur du "Titre h2", ce type peut être modifié juste en dessous. h1, h2, h3, h4 ou hidden sont les types disponibles aujourd'hui.
+
+Alignement (alignement) : Ce champ permet de déterminer l'alignement de votre titre par rapport à votre bloc : à gauche, au centre ou à droite. Par défaut, le titre est aligné à gauche.
+
+Date : vous avez la possibilité d'ajouter une date à votre contenu. Toutefois, pour le moment, le format est en US : mois jour, année. Une amélioration sera apportée pour modifier au format FR.
+
+Sous-titre (subheader) : Ce champ permet d'ajouter un sous-titre à votre contenu. Il est paramétré pour prendre automatiquement le niveau inférieur du titre. Exemple si votre titre est en h2, le sous-titre sera en h3. Attention à respecter cette hierarchie dans vos contenus. Le sous-titre n'est pas fait pour afficher un texte de graisseur différente à celle de votre contenu, le RTE vous permet de personnaliser votre texte pour ce type d'aperçu.
+
+Texte (text) : Le RTE (Rich Text Editor) vous permet d'écrire du texte, ajouter des images... Il contient notamment plusieurs possibilités de style.
+
+Le RTE
+Je fais ici volontairement une section à part pour le RTE au vu des nombreuses fonctionnalités qu'il contient.
+
+Styles
+L'onglet "Styles" vous permet d'accéder à un certain nombre de styles de contenu 
+
+Comme des apparences de titre h2 ou h3, des bloc gris avec ou sans bandeau, des surtitres verts...
+
+Des légendes, des crédits, des chapôs, des paragraphes ou des textes de tailles standards.
+
+Paragraphe
+Outre les apparences, on peut également choisir d'inclure des paragraphes, des titres h2, h3 ou h4 ainsi que des div (bloc à part) et des spans (texte dans le texte devant avoir un style particulier).
+
+Les boutons
+On peut également personnaliser certains boutons.
+
+Dans les liens, vous avez accès à de multiples styles :
+
+- Bouton
+- Bouton de téléchargement
+- Lien de téléchargement
+- Lien externe, flèche encadrée à gauche
+- Lien de téléchargement
+- Ancre animée (js-link-anchor)
+
+Ce dernier n'est pas un "style" a proprement parler mais plutôt une fonctionnalité. En activant ce style, vous pouvez intégrer une ancre sur votre page avec un petit effet de défilement vers l'emplacement du bloc. Cette fonctionnalité permet d'éviter un rechargement de page et de montrer à l'utilisateur qu'il s'agit de la même page. Ce style peut être couplé avec un bouton ou un lien.
+
+Attention : Lorsque vous intégrez un lien, plusieurs possibilités s'offrent à vous.
+
+Page
+Vous pouvez faire du lien vers une autre page du site, un lien vers un élément d'une page OU sur un élément de votre page.
+
+Dans le cas d'un lien vers une autre page, cliquez sur la page dans le menu de gauche, puis sur "Link to Le nom de la page".
+
+Si vous souhaitez faire un lien vers un bloc dans une autre page, la liste des blocs s'affiche et vous pouvez alors sélectionner le bloc qui vous intéresse (D'où l'importance de nommer ses blocs explicitement)
+
+Dans ces deux cas, si vous ne spécifiez rien dans "CSS-Class", un lien classique s'affichera (un lien souligné). Si vous préférez un bouton, il faut alors sélectionner la classe "Bouton".
+
+Enfin dans le cas d'un lien vers un élément de votre page actuelle, sélectionnez votre page puis l'élément comme sur les précédents exemples. Mais ajouter "Lien ancre animée" dans "CSS-Class" pour générer l'ancre.
+
+Une fois sélectionnez, vous pouvez, depuis le RTE, ajouter une classe "Bouton" si vous souhaitez faire de cet ancre un bouton plutôt qu'un lien.
+
+Fichier
+Vous pouvez également faire un lien vers un fichier (zip, pdf...). Pour cela, sélectionnez la fonction lien puis "Fichier" (ou File)
+
+Les différents dossiers vont alors s'afficher. Comme pour les pages, vous pouvez alors sélectionnez le document sur lequel vous souhaitez faire le lien en cliquant sur "+" à côté du document.
+
+Deux styles de boutons (CSS-Class) sont à votre disposition pour indiquer à votre utilisateur qu'il est possible de télécharger ce fichier : Bouton de téléchargement ou Lien de téléchargement.
+
+Url externe
+Vous pouvez également faire un lien vers une url externe. Pour cela vous disposez de plusieurs options.
+
+Target : vous permet de définir "top" ou "new window". "Top" force le navigateur a arriver en haut d'une page. "new window" force le navigateur à ouvrir le lien dans un nouvel onglet.
+
+Title : Si votre bouton est suffisamment explicite, cet attribut n'est pas nécessaire. Il peut toutefois s'avérer utile pour donner une information supplémentaire à l'utilisateur sous forme de fenêtre d'informations, ou lu par les lecteurs d'écrans. Mettre en title le même texte que le bouton est inutile.
+
+CSS-Class : cette option permet de sélectionner si votre lien aura la forme d'un bouton, d'un lien, d'un lien avec icône externe... Par défaut, la classe css est sur "lien".
+
+URL : L'adresse url sur laquelle vous souhaitez faire le renvoi.
+
+Cliquez ensuite sur "Set Link".
+
+Téléphone
+Vous pouvez rendre un numéro de téléphone cliquable (comportement par défaut sur la plupart des smartphones). Pour cela, il vous suffit d'indiquer le numéro de téléphone.
+
+Email
+Vous pouvez rendre une adresse email cliquable et qui permet également d'ouvrir le logiciel de messagerie par défaut pour l'envoi d'un mail rapidement. Attention, les robots crawlant les différents sites récupèrent ces adresses mails pour des envois massifs de mails de phishing, à utiliser avec précaution.
+
+Autres fonctionnalités du RTE
+- Le RTE permet notamment de modifier le code source dans l'onglet "Source". Cet onglet ne doit pas ou peu être utilisé afin de laisser les styles RC se faire. Si vous avez des besoins en termes de styles dans vos pages, merci d'en informer Clémence Bompas ou Damien do Carmo Duarte pour réaliser l'étude et, le cas échéant, lancer les développements.
+- Le carré avec une bordure pleine et une bordure pointillé entouré d'un "H1" vous permet de délimiter vos blocs pour voir facilement vos sauts de ligne dans votre RTE et repérer d'éventuels bugs d'affichage.
+- Les deux flèches vous permettent d'annuler une action ou la rétablir.
+- Le petit bloc de texte entouré de bordures pointillées vous permet de sélectionner tout le contenu de votre RTE.
+- Vous pouvez également ajouter un tableau en sélectionnant le nombre de lignes et de colonnes à afficher. Ce tableau est ensuite personnalisable pour mettre en avant une ligne, une colonne ou fusionner des cellules.
+- Comme sur tout RTE vous pouvez mettre en gras, mettre en italique, souligné ou barré du texte.
+- Le RTE permet la possibilité d'aligner votre texte sur la gauche, au milieu, à droite ou en texte justifié. Cette dernière option n'est pas recommandé pour l'accessibilité des contenus.
+- Avec les "X2" vous pouvez mettre des exposants ou des indices dans vos textes.
+- Le RTE permet également d'afficher une liste à puces ou une liste numérotée.
+- Augmenter ou diminuer le retrait de votre texte.
+- Intégrer une citation avec les double quotes, une image (ouvrant les fichiers du Typo3) et des caractères spéciaux via le symbole Omega.
+- Enfin le T souligné, en italique avec un x en indice est une option pour effacer la mise en forme. Utile notamment lors d'un copier-coller depuis un word ou tout autre éditeur.
+
+**Onglet média**
+
+En reprenant notre exemple, L'onglet média permet d'inclure une image en second bloc de contenu. Cet onglet permet également d'insérer une galerie d'images.
+
+Via le bouton "Ajouter fichier" (Add media file), vous avez accès aux différents fichiers dans le Typo3. Merci de les réunir dans des dossiers rangés pour permettre le maintien et le désherbage du Typo3. 
+
+Vous pouvez ajouter le nombre d'images que vous souhaitez pour une galerie.
+
+Petit point performance : Merci de mettre une image au format 589x360 au poids minimum (une image ne doit pas peser plus de 100 Ko idéalement, sauf cas exceptionnel).
+
+Accessibilité : Merci de renseigner la balise alt décrivant votre image. Exemple dans notre cas : Image montrant le titre du webinaire CanoTech "Réunion de rentrée avec les parents pour une coéducation réussie à l'élémentaire".
+
+Vous pouvez également ajouter une description (un petit texte qui sera affiché sous l'image en légende), un titre (qui aura une fonction d'information sous forme de petite bulle si besoin de précisions) et un lien.
+
+Vous avez également la possibilité de manipuler votre image via un éditeur (pour couper un peu le visuel, sélectionner un élément...).
+
+Avec le switch vous pouvez cacher/décacher votre image. La corbeille vous permet de la supprimer. Enfin les trois barres horizontales vous offrent la possibilité d'ordonner vos images, dans le cas où vous en ajoutez plusieurs.
+
+Parmi les options vous pouvez également modifier la width (longueur), la height (la hauteur) des éléments, exprimés en pixels. 
+
+Vous pouvez également choisir la position de votre image.
+
+Par défaut, celle-ci est situé entre le titre et le texte, en plein milieu du bloc. Vous pouvez choisir de la placer tout en bas, sur le côté droit en haut, sur le côté gauche en haut, sur le côté droit centré par rapport au contenu, sur le côté gauche centré par rapport au contenu ou en carrousel d'images sur le côté. La vidéo n'est pas encore active.
+
+Vous pouvez également définir le nombre de colonnes. Utile notamment dans le cadre où vous avez plusieurs images, vous pouvez en afficher 1, 2 ou 3 pour le carrousel, le reste étant caché.
+
+Enfin vous pouvez agir sur un switch pour rendre votre image cliquable et agrandissable.
+
+**Onglet apparence**
+
+L'onglet apparence dispose de plusieurs possibilités administrables.
+
+Layout
+
+Le layout permet de définir le comportement de votre bloc.
+
+Contenu centré 100% de la page : comportement par défaut, centré sur tous les écrans.
+
+Contenu 100% de l'écran : Votre contenu prend toute la largeur de l'écran, sans bordure et sans centrage.
+
+Contenu 100% de la page + étendu à droite : Ce comportement permet d'afficher le bloc normalement avec une extension sur la droite, disparaissant de l'écran de l'utilisateur (utile notamment pour les blocs "slider" de présentation de plateforme ou de notices).
+
+Contenu centré 62% de la page : permet d'afficher un contenu encore plus centré et resserré sur un écran.
+
+Style du bloc
+
+Plusieurs choix de couleur de bloc s'offrent à vous.
+
+Default : Transparent/Blanc.
+
+Bandeau gris : une couleur grise sur toute la largeur de votre bloc et de l'écran.
+
+Bandeau couleur de base - padding 80 px : une couleur bleu/vert Canopé sur toute la largeur de votre bloc et de l'écran avec un padding, un espacement à l'intérieur du bandeau, de 80px.
+
+Bandeau couleur de base plus claire - padding 80 px : une couleur bleu/vert Canopé mais légèrement plus claire sur toute la largeur de votre bloc et de l'écran avec un padding, un espacement à l'intérieur du bandeau, de 80px.
+
+Bandeau couleur de base - padding 48 px : une couleur bleu/vert Canopé sur toute la largeur de votre bloc et de l'écran avec un padding, un espacement à l'intérieur du bandeau, de 48px (plus resserré).
+
+Bloc MEA simple (gris) : une couleur grise sur tout votre bloc mais laissant le reste de l'écran blanc.
+
+MENU - pages services numériques : uniquement utilisé sur la page d'accueil de Réseau Canopé et permettant d'afficher les différents services numériques de Réseau Canopé (Cpro, SolDoc, Pégase...).
+
+Marge avant le bloc
+Vous avez la possibilité d'écraser la marge par défaut (de 24 px) avant votre bloc. Vous pouvez sélectionner 48px, 64px ou pas de marge.
+
+Marge après le bloc
+Vous avez la possibilité d'écraser la marge par défaut (de 24 px) après votre bloc. Vous pouvez sélectionner 64px.
+
+**Onglet catégories**
+Cet onglet n'est pas utile pour les textes et médias. Il est utilisé dans le cadre des actualités ou pour les propriétés d'une page.
+
+**Onglet Language**
+Cet onglet n'est pas utile sur reseau-canope.fr puisque le site n'est disponible qu'en Français.
+
+**Onglet Access**
+L'onglet access vous permet de définir la visibilité de votre contenu.
+
+Vous pouvez choisir d'afficher ou de masquer votre bloc.
+
+Définir une date de publication et une date d'expiration (programmation de votre bloc). Attention, vous devez avoir votre contenu visible pour que celui-ci s'affiche et se dépublie aux dates sélectionnés.
+
+Si votre bloc ne doit apparaître que pour certains utilisateurs, vous avez la possibilité de les indiquer dans le "Usergroup Access Rights". Exemple : Un bloc spécifique pour les INTERNE_RC.
+
+Enfin vous pouvez choisir de restreindre l'édition du bloc aux non-administrateurs. De cette façon, à part vous ou un administrateur, personne ne peut modifier ce bloc.
+
+**Onglet Notes**
+
+Si vous souhaitez apporter des indications/instructions spécifiques pour un autre utilisateur sur votre bloc, vous pouvez utiliser la description. Celle-ci ne s'affiche pas sur le site et ne sert qu'au back office.
+
+
+
