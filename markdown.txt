@@ -2,6 +2,9 @@
 clavier: true
 gestionGrosMots: true
 rechercheContenu: true
+avatar: https://github.com/irondam/elozae/blob/main/avatar-petit.png
+favicon: https://github.com/irondam/elozae/blob/main/favicon.png
+footer: CC BY NC SA Réseau Canopé - Créé avec ChatMD, un outil libre et gratuit de Cédric Eyssette
 ---
 
 # Élozae
